@@ -15,6 +15,24 @@ export default function Home() {
     }, 7000);
   }, []);
 
+  const socials = [
+    {
+      id: 1,
+      icon: <Facebook />,
+      href: "https://web.facebook.com/groups/2230605173831215/",
+    },
+    {
+      id: 2,
+      icon: <Twitter />,
+      href: "https://twitter.com/BeautWealt_?s=08",
+    },
+    {
+      id: 3,
+      icon: <Instagram />,
+      href: "https://www.instagram.com/beautwealt_electronics/",
+    },
+  ];
+
   return (
     <AnimatePresence mode="wait">
       <main className={pulse ? "animate-pulse" : ""}>
@@ -77,21 +95,3 @@ export default function Home() {
     </AnimatePresence>
   );
 }
-
-export const socials = [
-  {
-    id: 1,
-    icon: <Facebook />,
-    href: "https://web.facebook.com/groups/2230605173831215/",
-  },
-  {
-    id: 2,
-    icon: <Twitter />,
-    href: "https://twitter.com/BeautWealt_?s=08",
-  },
-  {
-    id: 3,
-    icon: <Instagram />,
-    href: "https://www.instagram.com/beautwealt_electronics/",
-  },
-];
