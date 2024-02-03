@@ -3,4 +3,7 @@
 @tailwind utilities;
 
 @layer components {
+  * {
+    background-color: "#000000";
+  }
 }
