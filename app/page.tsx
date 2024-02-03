@@ -12,7 +12,7 @@ export default function Heading() {
   );
 }
 
-export const products = [
+const products = [
   {
     title: "Beautwealt",
     link: "/",
